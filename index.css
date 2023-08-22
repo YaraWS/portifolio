@@ -246,7 +246,7 @@ h1, .project {
 .user-message{
   color: #4e380b;
   text-align: center;
-  margin-bottom: 100px;
+  margin: 0 30px 100px 0;
   font-size: 20px;
 }
 
