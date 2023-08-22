@@ -1,0 +1,55 @@
+@media(min-width:768px){
+  
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+
+.nav-menu{
+  position: fixed;
+  top: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  /* border: 2px solid purple; */
+}
+
+a{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 28px;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+
+}
+
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
