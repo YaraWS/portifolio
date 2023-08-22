@@ -141,7 +141,6 @@ span, .about-me{
   color: #65827c;
   color: #6d573e;
   text-align: center;
-  /* margin-top: 30px; */
 }
 
 .photo{
@@ -152,8 +151,6 @@ span, .about-me{
 }
 
 .about-me-text {
-  /* margin: 10px; */
-  width: 45vh;
   font-size: 24px;
   line-height: 40px;
   color: rgb(91, 61, 24);
@@ -161,7 +158,7 @@ span, .about-me{
   box-shadow: 5px 5px 8px #4e380b13;
   border-radius: 20px;
   padding: 20px;
-  /* border: 2px solid green; */
+  margin: 0 20px;
 }
 
 /* PROJECTS */
@@ -237,11 +234,6 @@ h1, .project {
 }
 
 /* Form */
-.contact{
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-}
 
 .user-message{
   color: #4e380b;
