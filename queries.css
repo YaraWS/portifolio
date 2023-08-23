@@ -5,6 +5,7 @@
   cursor: pointer;
 }
 
+
 .nav-menu{
   position: fixed;
   top: 1px;
@@ -13,13 +14,20 @@
   justify-content: space-between;
   align-items: center;
   gap: 70px;
-  /* border: 2px solid purple; */
+  background: #b0bbaf;
 }
 
 a{
   margin-left: 20px;
   margin-right: 20px;
   font-size: 28px;
+}
+
+.hero{
+  background: #929E90 url("/img/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
 }
 
 body{
