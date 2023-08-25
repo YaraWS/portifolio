@@ -39,13 +39,15 @@ a{
 .navbar{
   position: fixed;
   /* background: linear-gradient(180deg, rgba(146,158,144,1) 74%, rgba(146,158,144,0.4198471624978116) 100%); */
-  background-color: #b0bbae;
+  background-color: #b0bbaf;
+ 
   min-height: 70px;
   width: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+  /* border: 2px solid red; */
 }
 
 .nav-menu{
@@ -197,6 +199,8 @@ h1, .project {
   color: #4e380b;
 }
 
+
+
 .features {
   font-size: 20px;
   margin: 20px 0 0 10px;
@@ -235,6 +239,18 @@ h1, .project {
 
 /* Form */
 
+.division{
+  width: 50%;
+  margin: auto;
+  color: #522e054f;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .user-message{
   color: #4e380b;
   text-align: center;
@@ -248,6 +264,7 @@ h1, .project {
 }
 
 form{
+  max-width: 90%;
   display: flex;
   flex-direction: column;
   margin: 20px;
