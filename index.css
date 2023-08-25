@@ -223,11 +223,7 @@ h1, .project {
   margin: 10px;
 }
 
-.buttons{
-  display: flex;
-}
-
-.button{
+.button-links{
   background-color: rgb(23, 136, 142);
   color: rgb(248, 244, 239);
   padding: 10px;
