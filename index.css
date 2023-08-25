@@ -1,3 +1,6 @@
+/* ====================
+   General Configuration
+   ==================== */
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500&family=Proza+Libre:wght@400;500;600&family=Roboto&display=swap');
 
 *{
@@ -8,28 +11,18 @@
 
 body {
   margin: auto;
-  background-color: rgb(248, 237, 224);
-  /* background-color: rgb(30, 20, 6); */
+  background-color: #f8ede0;
 }
 
-.hero {
-  color: #b43030;
-  font-size: 0.875rem; 
-  min-height: 26.313rem; 
-  background: #929E90 url("/img/mobile-hero-n.png");
-  background-size: cover;
-}
-
-
-/* Nav Bar */
-
+/* ====================
+   Nav Bar
+   ==================== */
 li{
   list-style: none;
 }
 
 a{
   color: #4e380b;
-  /* font-family: 'Karla', sans-serif; */
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 18px;
@@ -38,16 +31,13 @@ a{
 
 .navbar{
   position: fixed;
-  /* background: linear-gradient(180deg, rgba(146,158,144,1) 74%, rgba(146,158,144,0.4198471624978116) 100%); */
   background-color: #b0bbaf;
- 
   min-height: 70px;
   width: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
-  /* border: 2px solid red; */
 }
 
 .nav-menu{
@@ -55,7 +45,6 @@ a{
   justify-content: space-between;
   align-items: center;
   gap: 70px;
-  /* border: 2px solid purple; */
 }
 
 .nav-link{
@@ -66,6 +55,27 @@ a{
   color: #893f3d;
 }
 
+.nav-menu{
+  position: fixed;
+  top: -160px;
+  left: -1px;
+  gap: 0;
+  flex-direction: column;
+  background: linear-gradient(180deg, #929e90 0%, #e1cfb1 88%);
+  width: 100%;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.nav-item{
+  margin: 16px 0;
+}
+
+.nav-menu.active{
+  top: 0;
+}
+
+/* Navbar > Hambuger */
 .hamburger{
   display: block;
   position:fixed;
@@ -86,26 +96,6 @@ a{
   transform: translateY(-8px) rotate(-45deg);
 }
 
-.nav-menu{
-  position: fixed;
-  top: -160px;
-  left: -1px;
-  gap: 0;
-  flex-direction: column;
-  background: linear-gradient(180deg, rgba(146,158,144,1) 0%, rgba(225,207,177,1) 88%);
-  width: 100%;
-  text-align: center;
-  transition: 0.5s;
-}
-
-.nav-item{
-  margin: 16px 0;
-}
-
-.nav-menu.active{
-  top: 0;
-}
-
 .bar{
   display: block;
   width: 25px;
@@ -116,8 +106,18 @@ a{
   background-color: #4e380b;
 }
 
-/* About Me Section */
+/* Navbar > Hero */
+.hero {
+  color: #b43030;
+  font-size: 0.875rem; 
+  min-height: 26.313rem; 
+  background: #929E90 url("/img/mobile-hero-n.png");
+  background-size: cover;
+}
 
+/* ====================
+   About Me Section
+   ==================== */
 .about-me h2{
   color: green;
   margin-top: 0;
@@ -143,9 +143,8 @@ h3{
   margin: 15px;
 }
 
-
 .about-me-text p:nth-child(1) span{
-  color: rgb(177, 91, 11);
+  color: #b15b0b;
   font-weight: 700;
 }
 
@@ -154,10 +153,6 @@ h3{
   color: rgb(8, 8, 8);
   font-size: 20px;
 }
-
-
-
-
 
 .tittles{
   font-family: 'Proza Libre', sans-serif;
@@ -177,7 +172,7 @@ h3{
 .about-me-text {
   font-size: 24px;
   line-height: 40px;
-  color: rgb(91, 61, 24);
+  color: #5b3d18;
   background-color: #e6e3dd;
   box-shadow: 5px 5px 8px #4e380b13;
   border-radius: 20px;
@@ -185,13 +180,13 @@ h3{
   margin: 0 20px;
 }
 
-/* PROJECTS */
-
+/* ====================
+   Projects
+   ==================== */
 .project{
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 h1, .project {
@@ -221,35 +216,26 @@ h1, .project {
   color: #4e380b;
 }
 
-
-
 .features {
   font-size: 20px;
   margin: 20px 0 0 10px;
   text-align: left;
-  
 }
-
-
 
 .tags{
   display: flex;
 }
 
-
-
 .tech-tags{
   background-color: #0f987d35;
-  color: rgb(46, 45, 42);
+  color: #2e2d2a;
   font-size: 20px;
-  /* border-radius: 15px; */
-  padding: 0px;
   margin: 10px;
 }
 
 .button-links{
-  background-color: rgb(23, 136, 142);
-  color: rgb(248, 244, 239);
+  background-color: #17888e;
+  color: #f8f4ef;
   padding: 10px;
   margin: 10px;
   font-size: 16px;
@@ -257,8 +243,9 @@ h1, .project {
   cursor: pointer;
 }
 
-/* Form */
-
+/* ====================
+   Form
+   ==================== */
 .division{
   width: 50%;
   margin: auto;
@@ -292,7 +279,6 @@ form{
   background-color: #b0bbae;
   box-shadow: 5px 5px 8px #4e380b13; 
   border-radius: 10px;
-
 }
 
 .email{
@@ -316,8 +302,6 @@ form{
   color: rgb(84, 84, 85);
 }
 
-
-
 .message{
   color:#07474179;
   font-family: Arial, Helvetica, sans-serif;
@@ -325,11 +309,6 @@ form{
 }
 
 .submit-btn{
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center; */
   width: 80px;
   color: rgb(235, 232, 232);
   font-size: 15px;
@@ -338,6 +317,22 @@ form{
   padding: 10px;
   border-radius: 10px;
 }
+
+/* ====================
+   Social Media
+   ==================== */
+
+   .social{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px 60px 0px;
+   }
+
+   .social-links{
+    font-size: 50px;
+    margin: 8px;
+    color: #8c978a;
+   }
 
 
 
