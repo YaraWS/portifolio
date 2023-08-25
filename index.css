@@ -118,6 +118,15 @@ a{
 
 /* About Me Section */
 
+.about-me h2{
+  color: green;
+  margin-top: 0;
+  margin-bottom: 13px;
+  color: #81877f;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 h3{
   font-size: 20px;
   margin: 50px;
@@ -130,10 +139,23 @@ h3{
   align-items: center;
 }
 
-span, .about-me{
-  color: rgb(138, 74, 17);
- 
+.about-me, p{
+  margin: 15px;
 }
+
+
+.about-me-text p:nth-child(1) span{
+  color: rgb(177, 91, 11);
+  font-weight: 700;
+}
+
+.about-me-text p:nth-child(2) span{
+  background-color: #0f987d35;
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+}
+
+
 
 
 
@@ -213,6 +235,8 @@ h1, .project {
 .tags{
   display: flex;
 }
+
+
 
 .tech-tags{
   background-color: #0f987d35;
