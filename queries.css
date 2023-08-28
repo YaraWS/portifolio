@@ -1,71 +1,59 @@
+/* ====================
+   Media Queries
+   ==================== */
 @media(min-width:768px){
   
-.hamburger{
-  display: none;
-  cursor: pointer;
-}
+  .hamburger{
+    display: none;
+    cursor: pointer;
+  }
 
-a{
-  font-size: 16px;
-}
-/* .hero{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
+  a{
+    font-size: 16px;
+  }
 
-/* .navbar{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
+  .nav-menu{
+    position: fixed;
+    top: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    background: #b0bbaf;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
 
+  a{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 28px;
+  }
 
-.nav-menu{
-  position: fixed;
-  top: 1px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 70px;
-  background: #b0bbaf;
-  max-width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
+  .hero{
+    background: #929E90 url("/img/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-a{
-  margin-left: 20px;
-  margin-right: 20px;
-  font-size: 28px;
-}
+  .about-me-text{
+    max-width: 30em;
+  }
 
-.hero{
-  background: #929E90 url("/img/hero.png");
-  background-repeat: no-repeat;
-  background-size: cover;
- 
-}
+  .project-gif{
+    max-width: 45em;
+  }
 
-.about-me-text{
-  max-width: 30em;
-}
+  .project-text{
+    max-width: 30em;
+  }
 
-.project-gif{
-  max-width: 45em;
-}
-
-.tindog-text{
-  max-width: 30em;
-}
-
-form{
-  max-width: 150%;
-  margin: 20px auto;
-}
+  form{
+    max-width: 150%;
+    margin: 20px auto;
+  }
 
 
 }
