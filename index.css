@@ -31,7 +31,6 @@ a{
 
 .navbar{
   position: fixed;
-  background-color: #b0bbaf;
   min-height: 70px;
   width: 100vh;
   display: flex;
