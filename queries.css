@@ -210,7 +210,9 @@
 
 
 @media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
-  
+  .contact{
+    width: 90%;
+  }
   form{
     max-width: 10%;
   }
