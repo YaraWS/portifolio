@@ -6,6 +6,7 @@ const contact = document.querySelector(".contact")
 
 
 
+
 // Hamburger Menu
 hamburger.addEventListener("click", ()=>{
   hamburger.classList.toggle("active");
@@ -32,3 +33,12 @@ form.addEventListener('submit',function(e){
   document.getElementById("form").style.display="none"
   formMessage(fname)
 })
+
+
+
+
+
+
+
+
+
