@@ -215,6 +215,7 @@
   }
   form{
     max-width: 10%;
+    border: 3px solid red;
   }
 }
 
