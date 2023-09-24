@@ -1,7 +1,7 @@
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 const form = document.querySelector("#form")
-const contact = document.querySelector(".contact")
+const contact = document.getElementById("contact")
 
 // Hamburger Menu
 hamburger.addEventListener("click", ()=>{
@@ -17,18 +17,18 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 
 
 
-// function formMessage(fname){
-//   contact.innerHTML = `<div class="user-message"> <span>${fname}</span> thanks for your message<br>
-//   I will get in touch shortly</div>`
+function formMessage(fname){
+  contact.innerHTML = `<div class="user-message"> <span>${fname}</span> thanks for your message<br>
+  I will get in touch shortly</div>`
 
-// }
+}
 
-// form.addEventListener('submit',function(e){
-//   e.preventDefault();
-//   let fname = document.forms["form"]["fname"].value
-//   document.getElementById("form").style.display="none"
-//   formMessage(fname)
-// })
+form.addEventListener('submit',function(e){
+  e.preventDefault();
+  let fname = document.forms["form"]["fname"].value
+  document.getElementById("form").style.display="none"
+  formMessage(fname)
+})
 
 
 
