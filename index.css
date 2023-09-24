@@ -316,8 +316,8 @@ form{
 }
 
 .email{
- margin:10px 5px;
- color: #513218;
+ max-width: 230px;
+ margin-left: 0;
 }
 
 .form-input{
