@@ -18,6 +18,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
 
 
 function formMessage(fname){
+  let fname = document.forms["form"]["fname"].value
   thankYou.innerHTML = `<div class="user-message"> <span>${fname}</span> thanks for your message<br>
   I will get in touch shortly</div>`
 
