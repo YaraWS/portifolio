@@ -32,7 +32,7 @@ a{
 .navbar{
   position: fixed;
   min-height: 70px;
-  width: 100%;
+  width: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,8 +56,8 @@ a{
 
 .nav-menu{
   position: fixed;
-  top: -110px;
-  left: 0px;
+  top: -160px;
+  left: 1px;
   gap: 0;
   flex-direction: column;
   background: linear-gradient(180deg, #929e90 0%, #e1cfb1 88%);
