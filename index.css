@@ -32,7 +32,7 @@ a{
 .navbar{
   position: fixed;
   min-height: 70px;
-  width: 100vh;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,8 +56,8 @@ a{
 
 .nav-menu{
   position: fixed;
-  top: -160px;
-  left: -1px;
+  top: -110px;
+  left: 0px;
   gap: 0;
   flex-direction: column;
   background: linear-gradient(180deg, #929e90 0%, #e1cfb1 88%);
@@ -217,7 +217,10 @@ h1, .project {
   /* max-width: 100%; */
   width: 90%;
   height: auto;
-  border-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border: 3px solid #c0d2d397;
+  border-bottom: none;
   margin-left: auto;
   margin-right: auto;
 }
@@ -228,14 +231,14 @@ h1, .project {
   width: 90%;
   font-size: 24px;
   line-height: 40px;
-  color: rgb(91, 61, 24);
+  color: #5b3d18;
   background-color: #e6e3dd;
   box-shadow: 5px 5px 8px #4e380b13;
-  border-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 3px solid #c0d2d397;
+  border-top: none;
   padding: 20px;
-  /* margin-left: auto;
-  margin-right: auto; */
-  margin: 10px 20px;
 }
 
 .shop{
@@ -265,6 +268,7 @@ h1, .project {
 
 
 
+
 .button-links{
   background-color: #17888e;
   color: #f8f4ef;
@@ -273,6 +277,10 @@ h1, .project {
   font-size: 1rem;
   border-radius: 0.938rem;
   cursor: pointer;
+}
+
+.button-links:hover{
+  background-color: #209aa0;
 }
 
 /* ====================
@@ -317,7 +325,6 @@ form{
 
 .email{
  max-width: 230px;
- margin-left: 0;
 }
 
 .form-input{
@@ -353,6 +360,12 @@ form{
   border: none;
 }
 
+.submit-btn:hover{
+  background-color: #209aa0;
+}
+
+
+
 .thank-you{
   margin: 4em auto;
   line-height: 40px;
@@ -376,6 +389,10 @@ form{
     font-size: 3.125rem;
     margin: 8px;
     color: #8c978a;
+   }
+
+   .social-links:hover{
+    color: #9cac99;
    }
 
 
